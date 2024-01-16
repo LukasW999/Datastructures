@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class a
+
+a --> b : 5
+a --> c : 2
+b --> d : 3
+b --> e : 1
+c --> f : 4
+c --> g : 3
+c --> e : 2
+c --> b : 2
+a --> h : 3
+a --> i : 1
+h --> g : 1
+i --> f : 1
+
+
+
+@enduml
